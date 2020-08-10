@@ -4,6 +4,9 @@ pub extern crate embedded_hal as hal;
 
 pub use paste;
 
+#[cfg(feature = "samd10c14a")]
+pub use atsamd11c14a as target_device;
+
 #[cfg(feature = "samd11c14a")]
 pub use atsamd11c14a as target_device;
 
@@ -55,6 +58,11 @@ macro_rules! dbgprint {
 #[macro_use]
 pub mod common;
 pub use self::common::*;
+
+#[cfg(feature = "samd10")]
+pub mod samd10;
+#[cfg(feature = "samd10")]
+pub use self::samd10::*;
 
 #[cfg(feature = "samd11")]
 pub mod samd11;
