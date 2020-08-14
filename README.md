@@ -1,6 +1,6 @@
 # atsamd & atsame support for Rust
 
-This repository holds various crates that support/enable working with Atmel `samd11`, `samd21`, `samd51`, and `same54` based devices using Rust.
+This repository holds various crates that support/enable working with Atmel `samd10`, `samd11`, `samd21`, `samd51`, and `same54` based devices using Rust.
 
 [![Build Status](https://travis-ci.org/atsamd-rs/atsamd.svg?branch=master)](https://travis-ci.org/atsamd-rs/atsamd)
 
@@ -12,6 +12,7 @@ In addition to the PACs and HAL, there numerous **B**oard **S**upport **P**ackag
 
 | Crate | Version | Board Support Packages |
 |:------|:--------|:-----------------------|
+| [atsamd10c14a](https://docs.rs/atsamd10c14a/) | [![Crates.io](https://img.shields.io/crates/v/atsamd10c14a.svg)](https://crates.io/crates/atsamd10c14a) |  |
 | [atsamd11c14a](https://docs.rs/atsamd11c14a/) | [![Crates.io](https://img.shields.io/crates/v/atsamd11c14a.svg)](https://crates.io/crates/atsamd11c14a) |  |
 | [atsamd21e18a](https://docs.rs/atsamd21e18a/) | [![Crates.io](https://img.shields.io/crates/v/atsamd21e18a.svg)](https://crates.io/crates/atsamd21e18a) | [Gemma M0][gemma_m0], [Trinket M0][trinket_m0], [Serpente][serpente] |
 | [atsamd21g18a](https://docs.rs/atsamd21g18a/) | [![Crates.io](https://img.shields.io/crates/v/atsamd21g18a.svg)](https://crates.io/crates/atsamd21g18a) | [Circuit Playground Express][circuit_playground_express], [Feather M0][feather_m0], [Metro M0][metro_m0], [MKR ZERO][arduino_mkrzero], [SAMD21 Mini][samd21_mini], [SODAQ ONE][sodaq_one] |
